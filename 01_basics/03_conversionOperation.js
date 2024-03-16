@@ -20,7 +20,7 @@ false => 0
 let isLoggedIn = 1
 
 let booleanIsloggedIn = Boolean(isLoggedIn)
-console.log(booleanIsloggedIn);
+//console.log(booleanIsloggedIn);
 
 /*
 1 => true
@@ -30,5 +30,37 @@ console.log(booleanIsloggedIn);
 
 let someNumber = 33
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+//console.log(stringNumber);
+//console.log(typeof stringNumber);
+
+
+// ******************************** Operations *****************************************
+
+let x = 3
+let negX = -x
+//console.log(negX);
+
+// console.log(2+3);
+// console.log(2-3);
+// console.log(2*3);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "Hello"
+let str2 = " World"
+
+let str3 = str1 + str2
+//console.log(str3);
+
+// console.log("1" + 2)
+// console.log(1 + "2");
+// console.log("1" + 2 + 2); // If first value is string all the other values will also be treated as string
+// console.log(1 + 2 + "2");
+
+// console.log(+true) // value is 1
+// console.log(+"") // value is 0
+
+
+
+
